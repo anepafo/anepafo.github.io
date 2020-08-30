@@ -1,0 +1,223 @@
+<!--
+Developed by Tryfon Tzanetis
+    trif.tz@gmail.com
+	    	 ____
+	    	(_  _)
+	    	  )(
+	     	 (__)
+
+************************************************************************          
+Anepafo. Contactless menus, for your business.
+
+    Copyright (C) 2019 Tryfon Tzanetis
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+************************************************************************
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Anepafo - Contactless menus, for your business.</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="shortcut icon" href="../assets/anepafo_logo.png" type="image/x-icon">
+    <meta property="og:title" content="Anepafo - Contactless menus, for your business.">
+    <meta property="og:image" content="assets/anepafo_fb.png">
+
+    <!-- Seo Tags -->
+    <meta name="description" content="Contactless menus, for your business.">
+    <meta name="keywords"
+        content="contactless, intact, menu, menus restaurant, hotel, airbnb, coffee, place, catalogue, ανέπαφο, μενού, καφετέρια, εστιατόριο, κατάλογος">
+    <meta name="author" content="Tryfon Tzanetis">
+    <meta name="viewport"
+        content="width=device-width,minimum-scale=1,initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://anepafo.com" />
+    <meta property="og:site_name" content="Anepafo" />
+    <meta property="og:image" itemprop="image primaryImageOfPage" content="assets/anepafo_logo.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:domain" content="Anepafo" />
+    <meta name="twitter:title" property="og:title" itemprop="name" content="Anepafo" />
+    <!-- /Seo Tags -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-46431000-21"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-46431000-21');
+    </script>
+
+    <style>
+        body {
+            color: black;
+            margin: 0;
+            height: 100%;
+            font-family: 'Jura', sans-serif;
+            font-display: auto;
+            background-color: #EEEEEE;
+            text-align: center;
+        }
+
+        .button {
+            border-radius: 25px;
+            color: white;
+            background-color: #0288D1;
+            border-color: white;
+            box-shadow: 0px 2px 5px #999999;
+            border: none;
+            padding: 14px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            box-shadow: 0px 2px 15px #999999;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        h2 {
+            font-size: 30px;
+            margin: 25px;
+            padding-top: 25px;
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 20px;
+            padding-top: 25px;
+        }
+
+        p {
+            font-size: 15px;
+            margin: 5px;
+            padding-bottom: 15px;
+        }
+
+        .card {
+            /* Add shadows to create the "card" effect */
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            margin-top: 50px;
+            margin-bottom: 0;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 600px;
+            padding-bottom: 25px;
+            border-radius: 4px;
+            background-color: white;
+            text-align: center;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 50px;
+        }
+
+        /* On mouse-over, add a deeper shadow */
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .footer {
+            /* position: fixed; */
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        img {
+            text-align: center;
+            width: 55px;
+            height: 55px;
+            margin-top: 25px;
+        }
+    </style>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
+    <!-- /Font -->
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '885472898633536');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=885472898633536&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+</head>
+
+<body>
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v7.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat" attribution=setup_tool page_id="101008191640622" theme_color="#0288d1"
+        logged_in_greeting="Hi! Do you want to make an order? Please start with the number of your table."
+        logged_out_greeting="Hi! Do you want to make an order? Please start with the number of your table.">
+    </div>
+
+    <img class="img" src="assets/contactless_menu_anepafo_logo.png" alt="contactless_menu_anepafo_logo">
+    <h1>We take your privacy seriously.</h1>
+    <h2>Our servers are encrypted and all the communication back and forth too and anonymized.</h2>
+    <div class="card">
+        <p>We use Google Analytics and Facebook pixel for behavior tracking. Please comply with their GDPR before using
+            our platform. By using our platform you automatically comply with our GDPR.</p>
+    </div>
+    <div class="footer">
+        <p>© Copyright 2020 Anepafo - All Rights Reserved</p>
+    </div>
+</body>
+
+</html>
