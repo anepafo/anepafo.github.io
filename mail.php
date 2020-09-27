@@ -14,7 +14,7 @@ $subject = "Anepafo Contact Form";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
 echo "<script>
-             alert('Message sent succesfully'); 
+             alert('Message sent'); 
              window.history.go(-1);
      </script>";
 ?>
