@@ -1,225 +1,236 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-	<title>Anepafo - Electronic QR menus, for your venue.</title>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-	<link rel="shortcut icon" href="/assets/contactless_menu_anepafo_logo.png" type="image/x-icon">
-	<meta property="og:title" content="Anepafo - Electronic QR menus, for your venue.">
-	<meta property="og:image" content="assets/anepafo_fb.png">
+	<head>
+		<title>Anepafo - Electronic QR menus, for your venue.</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+		<link rel="shortcut icon" href="/assets/contactless_menu_anepafo_logo.png" type="image/x-icon">
+		<meta property="og:title" content="Anepafo - Electronic QR menus, for your venue.">
+		<meta property="og:image" content="assets/anepafo_fb.png">
 
-	<!-- Seo Tags -->
-	<meta name="description" content="Electronic QR menus, for your venue. Covid protection.">
-	<meta name="keywords"
-		content="contactless, no contact, intact, menu, menus restaurant, venue, site, place, hotel, airbnb, coffee, cafe, café, cafeteria, coffee shop, diner, counter, eating house, bistro, place, catalogue, ανέπαφο, μενού, καφετέρια, εστιατόριο, κατάλογος">
-	<meta name="author" content="Tryfon Tzanetis">
-	<meta name="viewport"
-		content="width=device-width,minimum-scale=1,initial-scale=1, maximum-scale=1, user-scalable=0">
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://anepafo.com" />
-	<meta property="og:site_name" content="Anepafo" />
-	<meta property="og:image" itemprop="image primaryImageOfPage" content="assets/anepafo_logo.png" />
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:domain" content="Anepafo" />
-	<meta name="twitter:title" property="og:title" itemprop="name" content="Anepafo" />
-	<!-- /Seo Tags -->
+		<!-- Seo Tags -->
+		<meta name="description" content="Electronic QR menus, for your venue. Covid protection.">
+		<meta name="keywords"
+			content="contactless, no contact, intact, menu, menus restaurant, venue, site, place, hotel, airbnb, coffee, cafe, café, cafeteria, coffee shop, diner, counter, eating house, bistro, place, catalogue, ανέπαφο, μενού, καφετέρια, εστιατόριο, κατάλογος">
+		<meta name="author" content="Tryfon Tzanetis">
+		<meta name="viewport"
+			content="width=device-width,minimum-scale=1,initial-scale=1, maximum-scale=1, user-scalable=0">
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://anepafo.com" />
+		<meta property="og:site_name" content="Anepafo" />
+		<meta property="og:image" itemprop="image primaryImageOfPage" content="assets/anepafo_logo.png" />
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:domain" content="Anepafo" />
+		<meta name="twitter:title" property="og:title" itemprop="name" content="Anepafo" />
+		<!-- /Seo Tags -->
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-46431000-21"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-46431000-21"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() { dataLayer.push(arguments); }
+			gtag('js', new Date());
 
-		gtag('config', 'UA-46431000-21');
-	</script>
-
-
-	<style>
-		body {
-			color: #4b3937;
-			margin: 0;
-			height: 100%;
-			font-family: 'Arimo', sans-serif;
-			font-display: auto;
-			background-color: #d7c999;
-			text-align: center;
-		}
-
-		.button {
-			border-radius: 25px;
-			color: white;
-			background-color: #d7c999;
-			border-color: white;
-			box-shadow: 0px 2px 5px #999999;
-			border: none;
-			padding: 14px;
-			text-align: center;
-			text-decoration: none;
-			display: inline-block;
-			font-size: 18px;
-			margin: 4px 2px;
-			cursor: pointer;
-		}
-
-		.cocktailorsButton {
-			border-radius: 25px;
-			color: #ffccd2;
-			background-color: #0e2b8b;
-			border-color: #0e2b8b;
-			box-shadow: 0px 2px 5px #999999;
-			border: none;
-			padding: 14px;
-			text-align: center;
-			text-decoration: none;
-			display: inline-block;
-			font-size: 18px;
-			margin: 4px 2px;
-			cursor: pointer;
-		}		
-
-		.button:hover {
-			box-shadow: 0px 2px 15px #999999;
-		}
-
-		h1 {
-			font-size: 28px;
-		}
-
-		h2 {
-			font-size: 30px;
-			margin: 25px;
-			padding-top: 25px;
-			text-align: center;
-		}
-
-		h3 {
-			font-size: 20px;
-			padding-top: 25px;
-		}
-
-		p {
-			font-size: 18px;
-			margin: 5px;
-		}
-
-		a {
-			color: white;
-			text-decoration: none;
-		}
-
-		.card {
-			/* Add shadows to create the "card" effect */
-			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-			transition: 0.3s;
-			margin-top: 5px;
-			margin-bottom: 0;
-			margin-left: auto;
-			margin-right: auto;
-			max-width: 600px;
-			padding-bottom: 25px;
-			border-radius: 4px;
-			background-color: white;
-			text-align: center;
-			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-			padding: 50px;
-		}
-
-		.social {
-			margin-top: 15px;
-			margin-bottom: 0px;
-		}
-
-		/* On mouse-over, add a deeper shadow */
-		.card:hover {
-			box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-		}
-
-		.footer {
-			/* position: fixed; */
-			font-size: 15px;
-			left: 0;
-			bottom: 0;
-			width: 100%;
-			text-align: center;
-			margin-top: 10px;
-		}
-
-		img {
-			text-align: center;
-			width: 128px;
-			height: 128px;
-			margin-top: 25px;
-		}
-	</style>
-
-	<link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+			gtag('config', 'UA-46431000-21');
+		</script>
 
 
-	<!-- Facebook Pixel Code -->
-	<script>
-		!function (f, b, e, v, n, t, s) {
-			if (f.fbq) return; n = f.fbq = function () {
-				n.callMethod ?
-					n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-			};
-			if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-			n.queue = []; t = b.createElement(e); t.async = !0;
-			t.src = v; s = b.getElementsByTagName(e)[0];
-			s.parentNode.insertBefore(t, s)
-		}(window, document, 'script',
-			'https://connect.facebook.net/en_US/fbevents.js');
-		fbq('init', '885472898633536');
-		fbq('track', 'PageView');
-	</script>
-	<noscript><img height="1" width="1" style="display:none"
-			src="https://www.facebook.com/tr?id=885472898633536&ev=PageView&noscript=1" /></noscript>
-	<!-- End Facebook Pixel Code -->
+		<style>
+			body {
+				color: #4b3937;
+				margin: 0;
+				height: 100%;
+				font-family: 'Arimo', sans-serif;
+				font-display: auto;
+				background-color: #d7c999;
+				text-align: center;
+			}
 
-</head>
+			.button {
+				border-radius: 25px;
+				color: white;
+				background-color: #d7c999;
+				border-color: white;
+				box-shadow: 0px 2px 5px #999999;
+				border: none;
+				padding: 14px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 18px;
+				margin: 4px 2px;
+				cursor: pointer;
+			}
 
-<body>
-	<img class="img" src="https://www.sweethabit.gr/assets/images/sweethabit-logo-110x110.jpg"
-		alt="contactless_menu_sweethabit_logo">
+			.cocktailorsButton {
+				border-radius: 25px;
+				color: #ffccd2;
+				background-color: #0e2b8b;
+				border-color: #0e2b8b;
+				box-shadow: 0px 2px 5px #999999;
+				border: none;
+				padding: 14px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 18px;
+				margin: 4px 2px;
+				cursor: pointer;
+			}
 
-	<div class="social">
-		<a href="https://www.facebook.com/sweethabit.gr" target="_blank">
-			<span class="amp-iconfont fa-facebook-square fa"><svg width="32" height="32" viewBox="0 0 1792 1792"
-					xmlns="http://www.w3.org/2000/svg" fill="white">
-					<path
-						d="M1376 128q119 0 203.5 84.5t84.5 203.5v960q0 119-84.5 203.5t-203.5 84.5h-188v-595h199l30-232h-229v-148q0-56 23.5-84t91.5-28l122-1v-207q-63-9-178-9-136 0-217.5 80t-81.5 226v171h-200v232h200v595h-532q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960z">
-					</path>
-				</svg></span>
-		</a><a href="https://www.instagram.com/sweethabit_cafe" target="_blank">
-			<span class="amp-iconfont fa-instagram fa"><svg width="32" height="32" viewBox="0 0 1792 1792"
-					xmlns="http://www.w3.org/2000/svg" fill="white">
-					<path
-						d="M1152 896q0-106-75-181t-181-75-181 75-75 181 75 181 181 75 181-75 75-181zm138 0q0 164-115 279t-279 115-279-115-115-279 115-279 279-115 279 115 115 279zm108-410q0 38-27 65t-65 27-65-27-27-65 27-65 65-27 65 27 27 65zm-502-220q-7 0-76.5-.5t-105.5 0-96.5 3-103 10-71.5 18.5q-50 20-88 58t-58 88q-11 29-18.5 71.5t-10 103-3 96.5 0 105.5.5 76.5-.5 76.5 0 105.5 3 96.5 10 103 18.5 71.5q20 50 58 88t88 58q29 11 71.5 18.5t103 10 96.5 3 105.5 0 76.5-.5 76.5.5 105.5 0 96.5-3 103-10 71.5-18.5q50-20 88-58t58-88q11-29 18.5-71.5t10-103 3-96.5 0-105.5-.5-76.5.5-76.5 0-105.5-3-96.5-10-103-18.5-71.5q-20-50-58-88t-88-58q-29-11-71.5-18.5t-103-10-96.5-3-105.5 0-76.5.5zm768 630q0 229-5 317-10 208-124 322t-322 124q-88 5-317 5t-317-5q-208-10-322-124t-124-322q-5-88-5-317t5-317q10-208 124-322t322-124q88-5 317-5t317 5q208 10 322 124t124 322q5 88 5 317z">
-					</path>
-				</svg></span>
-		</a>
-	</div>
+			.button:hover {
+				box-shadow: 0px 2px 15px #999999;
+			}
 
-	<div class="card">
-		<h1>Καλωσήρθατε στο Sweet Habit</h1>
-		<p>Παρακαλώ επιλέξτε την κατηγορία που επιθυμείτε για να δείτε το αντίστοιχο μενού μας</p>
-		<p style="text-align:center;"><a href="https://www.sweethabit.gr/assets/files/COFFEE-BREAKFAST.pdf"
-				target="_blank"><button class="button">Καφές, πρωϊνό & σνακ</button></a></p>
-		<p style="text-align:center;"><a href="https://www.sweethabit.gr/assets/files/FOOD-DESSERTS.pdf"
-				target="_blank"><button class="button">Φαγητό & γλυκό</button></a></p>
-		<p style="text-align:center;"><a href="https://www.sweethabit.gr/assets/files/CREPES-WAFFLES.pdf"
-				target="_blank"><button class="button">Κρέπες & βάφλες</button></a></p>
-		<p style="text-align:center;"><a href="https://www.sweethabit.gr/assets/files/WINES-DRINKS.pdf"
-				target="_blank"><button class="button">Κρασιά & ποτά</button></a></p>
-		<p style="text-align:center;"><a href="https://www.sweethabit.gr/assets/files/COCKTAILS.pdf"
-				target="_blank"><button class="button">Cocktails</button></a></p>
-	</div>
-	<div class="footer">
-		<p>Powered by <a href="https://tafhub.com/projects/qr-menu/" title="Electronic QR menus - Anepafo" target="_blank">Anepafo</a></p>
-	</div>
+			h1 {
+				font-size: 28px;
+			}
 
-</body>
+			h2 {
+				font-size: 30px;
+				margin: 25px;
+				padding-top: 25px;
+				text-align: center;
+			}
+
+			h3 {
+				font-size: 20px;
+				padding-top: 25px;
+			}
+
+			p {
+				font-size: 18px;
+				margin: 5px;
+			}
+
+			a {
+				color: white;
+				text-decoration: none;
+			}
+
+			.card {
+				/* Add shadows to create the "card" effect */
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+				transition: 0.3s;
+				margin-top: 5px;
+				margin-bottom: 0;
+				margin-left: auto;
+				margin-right: auto;
+				max-width: 600px;
+				padding-bottom: 25px;
+				border-radius: 4px;
+				background-color: white;
+				text-align: center;
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+				padding: 50px;
+			}
+
+			.social {
+				margin-top: 15px;
+				margin-bottom: 0px;
+			}
+
+			/* On mouse-over, add a deeper shadow */
+			.card:hover {
+				box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+			}
+
+			.footer {
+				/* position: fixed; */
+				font-size: 15px;
+				left: 0;
+				bottom: 0;
+				width: 100%;
+				text-align: center;
+				margin-top: 10px;
+			}
+
+			img {
+				text-align: center;
+				width: 128px;
+				height: 128px;
+				margin-top: 25px;
+			}
+		</style>
+
+		<link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+
+
+		<!-- Facebook Pixel Code -->
+		<script>
+			!function (f, b, e, v, n, t, s) {
+				if (f.fbq) return; n = f.fbq = function () {
+					n.callMethod ?
+						n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+				};
+				if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+				n.queue = []; t = b.createElement(e); t.async = !0;
+				t.src = v; s = b.getElementsByTagName(e)[0];
+				s.parentNode.insertBefore(t, s)
+			}(window, document, 'script',
+				'https://connect.facebook.net/en_US/fbevents.js');
+			fbq('init', '885472898633536');
+			fbq('track', 'PageView');
+		</script>
+		<noscript><img height="1" width="1" style="display:none"
+				src="https://www.facebook.com/tr?id=885472898633536&ev=PageView&noscript=1" /></noscript>
+		<!-- End Facebook Pixel Code -->
+
+		<script data-ad-client="ca-pub-3881614075189823" async
+			src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+	</head>
+
+	<body>
+
+		<img class="img" src="https://www.sweethabit.gr/assets/images/sweethabit-logo-110x110.jpg"
+			alt="contactless_menu_sweethabit_logo">
+
+		<div class="social">
+			<a href="https://www.facebook.com/sweethabit.gr" target="_blank">
+				<span class="amp-iconfont fa-facebook-square fa"><svg width="32" height="32" viewBox="0 0 1792 1792"
+						xmlns="http://www.w3.org/2000/svg" fill="white">
+						<path
+							d="M1376 128q119 0 203.5 84.5t84.5 203.5v960q0 119-84.5 203.5t-203.5 84.5h-188v-595h199l30-232h-229v-148q0-56 23.5-84t91.5-28l122-1v-207q-63-9-178-9-136 0-217.5 80t-81.5 226v171h-200v232h200v595h-532q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960z">
+						</path>
+					</svg></span>
+			</a><a href="https://www.instagram.com/sweethabit_cafe" target="_blank">
+				<span class="amp-iconfont fa-instagram fa"><svg width="32" height="32" viewBox="0 0 1792 1792"
+						xmlns="http://www.w3.org/2000/svg" fill="white">
+						<path
+							d="M1152 896q0-106-75-181t-181-75-181 75-75 181 75 181 181 75 181-75 75-181zm138 0q0 164-115 279t-279 115-279-115-115-279 115-279 279-115 279 115 115 279zm108-410q0 38-27 65t-65 27-65-27-27-65 27-65 65-27 65 27 27 65zm-502-220q-7 0-76.5-.5t-105.5 0-96.5 3-103 10-71.5 18.5q-50 20-88 58t-58 88q-11 29-18.5 71.5t-10 103-3 96.5 0 105.5.5 76.5-.5 76.5 0 105.5 3 96.5 10 103 18.5 71.5q20 50 58 88t88 58q29 11 71.5 18.5t103 10 96.5 3 105.5 0 76.5-.5 76.5.5 105.5 0 96.5-3 103-10 71.5-18.5q50-20 88-58t58-88q11-29 18.5-71.5t10-103 3-96.5 0-105.5-.5-76.5.5-76.5 0-105.5-3-96.5-10-103-18.5-71.5q-20-50-58-88t-88-58q-29-11-71.5-18.5t-103-10-96.5-3-105.5 0-76.5.5zm768 630q0 229-5 317-10 208-124 322t-322 124q-88 5-317 5t-317-5q-208-10-322-124t-124-322q-5-88-5-317t5-317q10-208 124-322t322-124q88-5 317-5t317 5q208 10 322 124t124 322q5 88 5 317z">
+						</path>
+					</svg></span>
+			</a>
+		</div>
+
+		<div class="card">
+			<h1>Καλωσήρθατε στο Sweet Habit</h1>
+			<p>Παρακαλώ επιλέξτε την κατηγορία που επιθυμείτε για να δείτε το αντίστοιχο μενού μας</p>
+			<p style="text-align:center;"><a href="https://www.sweethabit.gr/assets/files/COFFEE-BREAKFAST.pdf"
+					target="_blank"><button class="button">Καφές, πρωϊνό & σνακ</button></a></p>
+			<p style="text-align:center;"><a href="https://www.sweethabit.gr/assets/files/FOOD-DESSERTS.pdf"
+					target="_blank"><button class="button">Φαγητό & γλυκό</button></a></p>
+			<p style="text-align:center;"><a href="https://www.sweethabit.gr/assets/files/CREPES-WAFFLES.pdf"
+					target="_blank"><button class="button">Κρέπες & βάφλες</button></a></p>
+			<p style="text-align:center;"><a href="https://www.sweethabit.gr/assets/files/WINES-DRINKS.pdf"
+					target="_blank"><button class="button">Κρασιά & ποτά</button></a></p>
+			<p style="text-align:center;"><a href="https://www.sweethabit.gr/assets/files/COCKTAILS.pdf"
+					target="_blank"><button class="button">Cocktails</button></a></p>
+		</div>
+		<div class="footer">
+			</br>
+			<p>Powered by <a href="https://tafhub.com/projects/qr-menu/" title="Electronic QR menus - Anepafo"
+					target="_blank">Anepafo</a> from <a style="font-size: 16px; background: linear-gradient(135deg,#020381,#2874fc); color: white; padding: 0.5em; border-radius: 100%; border-right-color: #F0E100;
+									border-top-color: #FF595E;
+									border-bottom-color: #3F88C5;
+									border-left-color: #548C2F;
+									border-style: solid;
+									border-width: 5px; " href="https://tafhub.com/" target="_blank" ;="">taf</a></p>
+		</div>
+
+	</body>
 
 </html>
